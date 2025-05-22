@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/736x/16/f0/b1/16f0b1cade5d31cf33cb5ca89c27efd1.jpg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0;
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+            gap: 140px;
+        }
+        .menu li{
+            font-size: 30px;
+            font-family: 'ubuntu',sans-serif;
+            
+        }
+        .left li{
+            list-style: none; <!--delite the pion in the beginning of the list -->>
+            font-family: 'ubuntu',sans-serif;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 30px;
+            text-align: center;
+            min-width: 120px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease , box-shadow 0.3s ease;
+        }
+        .left li:hover{
+            background-color: #c0bcd8;
+            transform: scale(1.03);  
+            box-shadow: 0 0 15px rgba(0, 0, 0, 1); 
+        }
+        .right li{
+            list-style: none;   <!--delite the pion in the beginning of the list -->>
+            font-family: 'ubuntu',sans-serif;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 30px;
+            text-align: center;
+            min-width: 150px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease , box-shadow 0.3s ease;
+        }
+        .right li:hover{
+            background-color: #c0bcd8;
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+        }
+        .menu li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu ">
+        <ul class="left">
+            <li><a href="nothing.html"></a><i class="fa-solid fa-bullhorn"></i> announcements</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-calendar-days"></i>events</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-globe"></i>online services</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-headset"></i></i>Contact Us</li>
+        </ul>
+         <ul class="right">
+            <li><a href="nothing.html"></a><i class="fa-solid fa-clock"></i>timetables</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-book-open-reader"></i>Courses</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-book"></i> library</li>
+            <li><a href="nothing.html"></a><i class="fa-solid fa-chart-line"></i>my results</li>
+         </ul>
+    </div>
+</body>
+</html>

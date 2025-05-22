@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>proj</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400&display=swap" rel="stylesheet">
+  <style>
+    body{
+      background-image: url(https://i.pinimg.com/736x/93/87/f0/9387f0d28858448ec16da24912ab66d5.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .title {
+        position: absolute;
+        top: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .titt {
+      font-size: 60px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ffffff, #a3c6ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      margin: 0;
+      animation: fadeInDown 1s ease;
+    }
+    .account {
+      background-color: rgba(255, 255, 255, 0.1); 
+      padding: 60px; 
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      width: 450px; 
+      display: flex;
+      flex-direction: column;
+
+    }
+    .account h1{
+      color: aliceblue;
+      margin-bottom: 30px;
+      font-size: 32px;
+      font-family: 'Ubuntu', sans-serif;
+      font-style: italic;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+    }
+
+    .account input{
+      
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      box-sizing: border-box;
+    }
+    .sup{
+      font-family: 'ubuntu', sans-serif;
+      width: 100%;
+      padding: 15px;
+      margin-top: 20px;
+      background-color: #57799b;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px ;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .sup:hover{
+      background-color: #1f1d2b;
+      transform: scale(1.03); 
+    }
+  </style>
+</head>
+<body>
+  <div class="title">
+    <h2 class="titt">USTHB </h2>
+  </div>
+  <div class="account">
+    <h1>create account</h1>
+    <form action="listo.html">
+      <input type="text"id="newUsername" placeholder="user name" required>
+      <input type="password"id="password"placeholder="password" required>
+      <input class='sup'type="submit"  >
+    </form>
+     
+  </div>
+   
+</body>
+</html>
